@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="ro" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ateliero Metal & Tinichigerie — acoperișuri din tablă și confecții la comandă</title>
+  <meta name="description" content="Tinichigerie în Timișoara: acoperișuri din tablă, jgheaburi și burlane, confecții din tablă la comandă și învelitori pentru hale. Deviz în 48 de ore, garanție 10 ani.">
+  <meta name="theme-color" content="#181A1B">
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <script>
+    // Aplică tema salvată înainte de randare (evită flash-ul).
+    try { var t = localStorage.getItem("ateliero-theme"); if (t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Sari la conținut</a>
+
+  <!-- HEADER -->
+  <header class="site-header" id="top">
+    <div class="topbar">
+      <div class="container topbar__inner">
+        <span><svg class="ico" aria-hidden="true"><use href="./assets/icons.svg#pin"/></svg> <span data-cfg="addressFull">Timișoara</span></span>
+        <span class="topbar__hours"><svg class="ico" aria-hidden="true"><use href="./assets/icons.svg#clock"/></svg> <span data-cfg="hoursShort">Luni – Vineri 07:30 – 17:00</span></span>
+        <a href="#" data-cfg-href="mailto"><svg class="ico" aria-hidden="true"><use href="./assets/icons.svg#mail"/></svg> <span data-cfg="email">email</span></a>
+      </div>
+    </div>
+    <div class="container nav">
+      <a class="logo" href="#top" aria-label="Ateliero Metal, înapoi sus">
+        <svg class="logo__mark" viewBox="0 0 40 40" aria-hidden="true"><path d="M3 22 20 8l17 14" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="miter"/><path d="M9 21v13M15 16v18M21 11v23M27 16v18M33 21v13" stroke="currentColor" stroke-width="1.6"/></svg>
+        <span class="logo__text"><strong>Ateliero</strong><small>Metal &amp; Tinichigerie</small></span>
+      </a>
+      <nav class="nav__menu" id="navMenu" aria-label="Navigare principală">
+        <a href="#servicii">Servicii</a>
+        <a href="#lucrari">Lucrări</a>
+        <a href="#tarife">Tarife</a>
+        <a href="#proces">Cum lucrăm</a>
+        <a href="#recenzii">Recenzii</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav__actions">
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Comută tema întunecată" aria-pressed="false">
+          <svg class="ico ico--moon" aria-hidden="true"><use href="./assets/icons.svg#moon"/></svg>
+          <svg class="ico ico--sun" aria-hidden="true"><use href="./assets/icons.svg#sun"/></svg>
+        </button>
+        <a class="btn btn--accent btn--sm nav__cta" href="#deviz">Cere deviz</a>
+        <button class="icon-btn nav__burger" id="navToggle" type="button" aria-label="Deschide meniul" aria-expanded="false" aria-controls="navMenu">
+          <svg class="ico" aria-hidden="true"><use href="./assets/icons.svg#menu"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <p class="hero__kicker">Tinichigerie în <span data-cfg="city">Timișoara</span> din <span data-cfg="foundedYear">2009</span></p>
+          <h1 id="hero-title" class="hero__title">Tablă îndoită corect, montată o singură dată.</h1>
+          <p class="hero__lead">Acoperișuri din tablă, jgheaburi și burlane, confecții pe abkant și învelitori pentru hale. Măsurăm noi, îți dăm deviz scris și lucrăm la termenul din contract.</p>
+          <div class="hero__ctas">
+            <a class="btn btn--accent btn--lg" href="#deviz">Cere deviz gratuit</a>
+            <a class="btn btn--ghost btn--lg" href="#" data-cfg-href="tel">
+              <svg class="ico" aria-hidden="true"><use href="./assets/icons.svg#phone"/></svg>
+              <span data-cfg="phoneDisplay">telefon</span>
+            </a>
+          </div>
+          <ul class="trust" aria-label="Garanțiile noastre">
+            <li>
+              <svg class="ico" aria-hidden="true"><use href="./assets/icons.svg#shield"/></svg>
+              <span><strong>Garanție <span data-cfg="warrantyYears">10</span> ani</strong> pe manoperă, în scris</span>
+            </li>
+            <li>
+              <svg class="ico" aria-hidden="true"><use href="./assets/icons.svg#ruler"/></svg>
+              <span><strong>Măsurători la fața locului</strong>, gratuit în Timișoara</span>
+            </li>
+            <li>
+              <svg class="ico" aria-hidden="true"><use href="./assets/icons.svg#calendar"/></svg>
+              <span><strong>Execuție la termen</strong>, penalități în contract</span>
+            </li>
+          </ul>
+        </div>
+
+        <figure class="hero__drawing" aria-label="Secțiune tehnică printr-un acoperiș din tablă fălțuită">
+          <div class="drawing__frame">
+            <img class="drawing__photo" src="https://images.unsplash.com/photo-1632759145351-1d592919f522?auto=format&fit=crop&w=1100&q=70" data-fallback="./assets/img/roof.svg" alt="Tinichigiu montând tablă fălțuită pe un acoperiș" width="1100" height="825" fetchpriority="high">
+            <svg class="drawing__overlay" viewBox="0 0 400 300" preserveAspectRatio="none" aria-hidden="true">
+              <g class="corner"><path d="M8 28V8h20"/><path d="M372 8h20v20"/><path d="M392 272v20h-20"/><path d="M28 292H8v-20"/></g>
+            </svg>
+          </div>
+          <figcaption class="drawing__spec">
+            <svg class="seam" viewBox="0 0 360 70" aria-hidden="true">
+              <path class="seam__sheet" d="M0 56h70v-34h8v34h92v-34h8v34h92v-34h8v34h82"/>
+              <path class="seam__dim" d="M70 12h16M70 8v8M86 8v8"/>
+              <path class="seam__dim" d="M78 66h100M78 62v8M178 62v8"/>
+              <text x="92" y="14">25</text>
+              <text x="186" y="70">530 mm</text>
+            </svg>
+            <dl class="spec-list">
+              <div><dt>Profil</dt><dd>fălțuire dublă</dd></div>
+              <div><dt>Grosime</dt><dd>0,5 mm</dd></div>
+              <div><dt>Pantă min.</dt><dd>7°</dd></div>
+            </dl>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="container hero__stats">
+        <div><strong data-cfg="years">15</strong><span data-cfg="yearsLabel">ani în atelier</span></div>
+        <div><strong data-cfg="projects">1.400+</strong><span data-cfg="projectsLabel">lucrări predate</span></div>
+        <div><strong>48 h</strong><span>până la deviz</span></div>
+        <div><strong data-cfg="serviceAreaShort">3 județe</strong><span data-cfg="serviceArea">zonă de lucru</span></div>
+      </div>
+    </section>
+
+    <!-- SERVICII -->
+    <section class="section" id="servicii" aria-labelledby="servicii-title">
+      <div class="container">
+        <header class="section__head">
+          <h2 id="servicii-title">Ce lucrăm în tablă</h2>
+          <p>De la un glaf de 2 metri la învelitoarea unei hale de 3.000 m². Fiecare lucrare pornește de la măsurători făcute de noi, nu din schițe aproximative.</p>
+        </header>
+        <div class="services" id="servicesGrid">
+          <!-- randat din SITE_DATA.services -->
+        </div>
+      </div>
+    </section>
+
+    <!-- LUCRĂRI -->
+    <section class="section section--alt" id="lucrari" aria-labelledby="lucrari-title">
+      <div class="container">
+        <header class="section__head section__head--row">
+          <div>
+            <h2 id="lucrari-title">Lucrări predate</h2>
+            <p>O selecție din ultimele două sezoane, din Timișoara și împrejurimi.</p>
+          </div>
+          <div class="filters" id="portfolioFilters" role="group" aria-label="Filtrează lucrările după tip"></div>
+        </header>
+        <ul class="gallery" id="portfolioGrid" aria-live="polite"></ul>
+      </div>
+    </section>
+
+    <!-- TARIFE -->
+    <section class="section" id="tarife" aria-labelledby="tarife-title">
+      <div class="container tarife">
+        <header class="section__head">
+          <h2 id="tarife-title">Tarife orientative</h2>
+          <p>Prețuri de pornire pentru lucrări obișnuite, în lei fără TVA. Prețul final depinde de pantă, acces, tipul tablei și detaliile acoperișului, și îl primești în deviz după măsurători.</p>
+          <p class="tarife__note"><svg class="ico" aria-hidden="true"><use href="./assets/icons.svg#info"/></svg> Constatarea și devizul sunt gratuite în Timișoara.</p>
+        </header>
+        <div class="price-table" role="table" aria-label="Tarife orientative">
+          <div class="price-row price-row--head" role="row">
+            <span role="columnheader">Lucrare</span>
+            <span role="columnheader">Unitate</span>
+            <span role="columnheader">Preț (lei)</span>
+          </div>
+          <div id="pricingRows"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCES -->
+    <section class="section section--dark" id="proces" aria-labelledby="proces-title">
+      <div class="container">
+        <header class="section__head">
+          <h2 id="proces-title">De la telefon la acoperiș gata, în trei pași</h2>
+        </header>
+        <ol class="steps" id="processSteps"></ol>
+      </div>
+    </section>
+
+    <!-- RECENZII -->
+    <section class="section section--alt" id="recenzii" aria-labelledby="recenzii-title">
+      <div class="container">
+        <header class="section__head section__head--row">
+          <div>
+            <h2 id="recenzii-title">Ce spun clienții</h2>
+            <p>Recenzii de la clienți cu lucrări predate în ultimul an.</p>
+          </div>
+          <p class="rating-summary"><strong>4,9</strong> din 5 <span>pe baza a 127 de recenzii</span></p>
+        </header>
+        <div class="reviews" id="reviewsGrid"></div>
+      </div>
+    </section>
+
+    <!-- DEVIZ -->
+    <section class="section" id="deviz" aria-labelledby="deviz-title">
+      <div class="container quote">
+        <div class="quote__intro">
+          <h2 id="deviz-title">Cere un deviz</h2>
+          <p>Spune-ne pe scurt ce lucrare ai. Te sunăm în aceeași zi lucrătoare ca să stabilim vizita pentru măsurători.</p>
+          <ul class="quote__facts">
+            <li><svg class="ico" aria-hidden="true"><use href="./assets/icons.svg#check"/></svg> Răspuns în aceeași zi lucrătoare</li>
+            <li><svg class="ico" aria-hidden="true"><use href="./assets/icons.svg#check"/></svg> Deviz scris, pe poziții</li>
+            <li><svg class="ico" aria-hidden="true"><use href="./assets/icons.svg#check"/></svg> Fără obligație de comandă</li>
+          </ul>
+          <p class="quote__demo"><strong>Mod demonstrativ:</strong> la trimitere se deschide WhatsApp cu mesajul completat.</p>
+        </div>
+
+        <form class="form" id="quoteForm" novalidate>
+          <div class="form__summary" id="formSummary" tabindex="-1" role="alert" hidden></div>
+          <div class="form__grid">
+            <div class="field">
+              <label for="f-name">Nume <span aria-hidden="true">*</span></label>
+              <input id="f-name" name="name" type="text" autocomplete="name" required aria-describedby="e-name">
+              <p class="field__error" id="e-name"></p>
+            </div>
+            <div class="field">
+              <label for="f-phone">Telefon <span aria-hidden="true">*</span></label>
+              <input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required aria-describedby="e-phone" placeholder="07xx xxx xxx">
+              <p class="field__error" id="e-phone"></p>
+            </div>
+            <div class="field">
+              <label for="f-service">Tip lucrare <span aria-hidden="true">*</span></label>
+              <select id="f-service" name="service" required aria-describedby="e-service">
+                <option value="">Alege tipul lucrării</option>
+              </select>
+              <p class="field__error" id="e-service"></p>
+            </div>
+            <div class="field">
+              <label for="f-city">Localitate <span aria-hidden="true">*</span></label>
+              <input id="f-city" name="city" type="text" autocomplete="address-level2" required aria-describedby="e-city">
+              <p class="field__error" id="e-city"></p>
+            </div>
+            <div class="field">
+              <label for="f-size">Suprafață sau lungime aproximativă</label>
+              <input id="f-size" name="size" type="text" aria-describedby="h-size" placeholder="ex. 180 m² sau 40 ml">
+              <p class="field__help" id="h-size">Opțional. O estimare ne ajută să venim cu materialul potrivit.</p>
+            </div>
+            <div class="field">
+              <label for="f-when">Când ai vrea să începem?</label>
+              <select id="f-when" name="when">
+                <option value="Cât mai repede">Cât mai repede</option>
+                <option value="În următoarea lună">În următoarea lună</option>
+                <option value="În 2–3 luni">În 2–3 luni</option>
+                <option value="Doar mă informez">Doar mă informez</option>
+              </select>
+            </div>
+            <div class="field field--full">
+              <label for="f-details">Detalii despre lucrare</label>
+              <textarea id="f-details" name="details" rows="4" placeholder="ex. Acoperiș în 4 ape, țiglă ceramică veche, vrem tablă fălțuită gri antracit."></textarea>
+            </div>
+            <div class="field field--full field--check">
+              <input id="f-gdpr" name="gdpr" type="checkbox" required aria-describedby="e-gdpr">
+              <label for="f-gdpr">Sunt de acord să fiu contactat în legătură cu această cerere.</label>
+              <p class="field__error" id="e-gdpr"></p>
+            </div>
+          </div>
+          <button class="btn btn--accent btn--lg btn--block" type="submit" id="quoteSubmit">
+            <svg class="ico" aria-hidden="true"><use href="./assets/icons.svg#whatsapp"/></svg>
+            <span>Trimite cererea de deviz</span>
+          </button>
+          <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" id="contact">
+    <div class="container footer__grid">
+      <div>
+        <a class="logo logo--footer" href="#top" aria-label="Ateliero Metal, înapoi sus">
+          <svg class="logo__mark" viewBox="0 0 40 40" aria-hidden="true"><path d="M3 22 20 8l17 14" fill="none" stroke="currentColor" stroke-width="3"/><path d="M9 21v13M15 16v18M21 11v23M27 16v18M33 21v13" stroke="currentColor" stroke-width="1.6"/></svg>
+          <span class="logo__text"><strong>Ateliero</strong><small>Metal &amp; Tinichigerie</small></span>
+        </a>
+        <p class="footer__about" data-cfg="tagline">Acoperișuri din tablă și confecții metalice la comandă.</p>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul class="footer__list">
+          <li><a href="#" data-cfg-href="tel"><svg class="ico" aria-hidden="true"><use href="./assets/icons.svg#phone"/></svg> <span data-cfg="phoneDisplay">telefon</span></a></li>
+          <li><a href="#" data-cfg-href="whatsapp" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="./assets/icons.svg#whatsapp"/></svg> WhatsApp</a></li>
+          <li><a href="#" data-cfg-href="mailto"><svg class="ico" aria-hidden="true"><use href="./assets/icons.svg#mail"/></svg> <span data-cfg="email">email</span></a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Atelier</h3>
+        <address class="footer__address">
+          <span data-cfg="address">adresa</span><br>
+          <span data-cfg="city">Timișoara</span>, jud. <span data-cfg="county">Timiș</span>
+        </address>
+        <a class="footer__link" href="#" data-cfg-href="maps" target="_blank" rel="noopener">Deschide în Google Maps</a>
+      </div>
+      <div>
+        <h3>Program</h3>
+        <dl class="footer__hours" id="footerHours"></dl>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>© <span id="year">2026</span> <span data-cfg="name">Ateliero Metal &amp; Tinichigerie</span>. Site demonstrativ.</p>
+      <a href="#top">Înapoi sus</a>
+    </div>
+  </footer>
+
+  <!-- BARĂ MOBIL -->
+  <div class="mobile-bar" aria-label="Contact rapid">
+    <a class="mobile-bar__btn" href="#" data-cfg-href="tel">
+      <svg class="ico" aria-hidden="true"><use href="./assets/icons.svg#phone"/></svg> Sună atelierul
+    </a>
+    <a class="mobile-bar__btn mobile-bar__btn--accent" href="#" data-cfg-href="whatsapp" target="_blank" rel="noopener">
+      <svg class="ico" aria-hidden="true"><use href="./assets/icons.svg#whatsapp"/></svg> Cere deviz WhatsApp
+    </a>
+  </div>
+
+  <script src="./js/config.js"></script>
+  <script src="./js/data.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>

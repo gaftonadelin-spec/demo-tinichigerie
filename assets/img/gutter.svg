@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice">
+<defs><pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#181A1B" stroke-opacity=".06"/></pattern></defs>
+<rect width="800" height="500" fill="#E7E5DF"/><rect width="800" height="500" fill="url(#g)"/>
+<g fill="none" stroke="#181A1B" stroke-width="3" stroke-linejoin="miter"><path d="M100 160h600"/><path d="M140 160a60 60 0 0 0 120 0"/><path d="M200 220v220"/><path d="M240 220v220"/><path d="M200 440l-20 30h80l-20-30"/><path d="M300 160h400v-60H300"/></g><g fill="none" stroke="#B45309" stroke-width="1.5"><path d="M140 120h120M140 112v16M260 112v16"/></g><text x="40" y="465" font-family="Space Grotesk, Arial, sans-serif" font-size="20" fill="#52525B">Jgheab Ø125 și burlan Ø100</text></svg>

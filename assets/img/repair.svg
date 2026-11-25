@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice">
+<defs><pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#181A1B" stroke-opacity=".06"/></pattern></defs>
+<rect width="800" height="500" fill="#E7E5DF"/><rect width="800" height="500" fill="url(#g)"/>
+<g fill="none" stroke="#181A1B" stroke-width="3" stroke-linejoin="miter"><path d="M120 330 400 140l280 190"/><path d="M160 305v115h480V305"/><path d="M430 200l40 20-20 30 30 20"/></g><g fill="none" stroke="#B45309" stroke-width="1.5"><circle cx="455" cy="230" r="55"/></g><text x="40" y="465" font-family="Space Grotesk, Arial, sans-serif" font-size="20" fill="#52525B">Constatare și reparație infiltrații</text></svg>
